@@ -88,7 +88,8 @@ export default function Header() {
     >
       {/* Logo */}
       <Link href="/" className="flex items-center mr-auto">
-        <img src="/svgs/elec_logo.svg" alt="logo" className="w-20 h-20" />
+        <img src="/svgs/elec_logo.svg" alt="logo" className={`${isDarkMode ? 'hidden' : 'flex' } w-20 h-20`} />
+        <img src="/elec_logo_dark.png" alt="logo" className={`${isDarkMode ? 'flex' : 'hidden' } w-20 h-20`} />
         <span
           className={`text-xl font-bold ${
             isDarkMode ? "text-white" : "text-[#0A0A0B]"

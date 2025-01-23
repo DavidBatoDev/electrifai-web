@@ -101,7 +101,7 @@ const Hero = () => {
           initial={{ opacity: 0, scale: 0.8 }}
           animate={{ opacity: 1, scale: 1 }}
           transition={{ duration: 0.8, ease: 'easeOut' }}
-          className="object-contain rounded-lg w-full h-auto max-h-[600px] mt-20"
+          className="object-contain rounded-lg w-full h-auto max-h-[400px] mt-20"
         />
       </div>
     </section>
